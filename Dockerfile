@@ -9,7 +9,6 @@ workflow-cps \
 workflow-step-api \
 workflow-durable-task-step \
 workflow-basic-steps \
-greenballs \
 pipeline-input-step \
 pipeline-stage-view \
 ansicolor \
