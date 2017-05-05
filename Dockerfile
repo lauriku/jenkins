@@ -5,7 +5,7 @@ USER root
 ENV AWS_DEFAULT_REGION eu-west-1
 
 RUN apt-get update -y \
-      && apt-get install -y zip python python-pip git wget curl\
+      && apt-get install -y zip python python-pip git wget curl jq \
       && pip install awscli
 
 RUN cd /tmp \
