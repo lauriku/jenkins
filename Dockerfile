@@ -26,6 +26,8 @@ pipeline-input-step \
 pipeline-stage-view \
 ansicolor \
 git \
-maven
+maven \
+blueocean-dashboard \
+blueocean-web
 
 ENV JAVA_OPTS "-Dhudson.Main.development=true -Djenkins.install.runSetupWizard=false"
