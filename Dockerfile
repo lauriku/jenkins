@@ -22,6 +22,7 @@ ansicolor \
 git \
 maven \
 blueocean-dashboard \
-blueocean-web
+blueocean-web \
+workflow-multibranch
 
 ENV JAVA_OPTS "-Dhudson.Main.development=true -Djenkins.install.runSetupWizard=false"
